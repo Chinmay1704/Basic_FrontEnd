@@ -1,0 +1,22 @@
+.main{
+    background-image: url('https://png.pngtree.com/background/20230525/original/pngtree-jane-read-library-with-anime-desk-picture-image_2736866.jpg');
+    background-size: cover;
+    height: auto;
+}
+
+input:focus{
+    outline-color:#2196F3 !important;
+    background-color: transparent;
+}
+
+.result{
+    margin: 60px;
+    padding: 10px;
+    align-items: left;
+    background-color: rgba(159, 159, 159, 0.80);
+    width: fit-content;
+}
+
+.result li{
+    font-size: 20px;
+}
