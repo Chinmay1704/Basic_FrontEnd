@@ -1,0 +1,11 @@
+body{
+    background-color: bisque;
+}
+
+.main{
+    padding: 50px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: fit-content;
+    box-shadow: 5px 5px;
+}
