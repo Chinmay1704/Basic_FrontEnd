@@ -1,0 +1,114 @@
+.Nav{
+    justify-content: space-between;
+}
+
+.Nav a{
+    margin-left: 20px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.nav ul{
+    justify-content: space-around;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.image{
+    display: flex;   
+}
+
+.image img{ 
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+    overflow: hidden;
+    
+}
+
+.image h4{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px;
+}
+
+/* .dots{
+   margin-left: 290px;
+} */
+
+.post_img{
+    margin-top: 10px;
+}
+
+.post_img img{
+    height: 450px;
+    width: 100%;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action_buttons{
+    font-size: 25px; 
+}
+
+.action_buttons i{
+    padding-right: 10px;
+}
+
+.save{
+    padding: 7px;
+    font-size: 25px;
+}
+
+.likes_cap .like{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.likes_cap .caption span{
+    font-weight: 500;
+}
+
+.comments .count{
+    margin-top: -10px;
+    font-size: 15px;
+    color: grey;
+    cursor: pointer;
+}
+
+.add_comment ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: -10px;
+}
+
+.add_comment img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.add_comment input{
+    border: none;
+    width: 67%;
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.add_comment .comm{
+    font-size: 13px;
+    padding: 4px;
+}
+
+.add_comment p{
+    font-size: 13px;
+    color: grey;
+}

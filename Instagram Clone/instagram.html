@@ -1,0 +1,280 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/components/instagram.css">
+    
+    <title>Instagram-Clone</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Navbar started -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid Nav">
+                <a class="navbar-brand" href="#">Instagram</a>
+
+                <ul class="nav"> 
+                    <li><a type="button" class="btn"><i class="fa-regular fa-heart fa-lg"></i></a></li>
+
+                    <li><a type="button" class="btn"><i class="fa-brands fa-facebook-messenger fa-lg"
+                                style="color: #222121;"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navbar Ended -->
+    </div>
+
+    <!-- Content Started -->
+    <div class="container-fluid">
+        <!-- Card 1 started -->
+        <div class="container">
+            <div class="card border-0" >
+                <div class="profile card-header border-0">
+                    <div class="image">
+                        <img src="https://www.syfy.com/sites/syfy/files/2021/04/film-review-thor-2011.jpg" alt="thor.jpg">
+                        <h4>Thor</h4>
+                    </div>
+
+                    <div class="dots">
+                        <i class="fa-solid fa-ellipsis" style="color: #000000;"></i>
+                    </div>
+                </div>
+                
+                <div class="post_img mx-auto">
+                    <img src="https://media.tenor.com/0wuOlAz-ZaEAAAAM/thor.gif" class="card-img-top" alt="thor.gif">
+                </div>
+                <div class="card-body">
+                    <div class="action">
+                        <div class="action_buttons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+    
+                        <div class="save">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes_cap">
+                        <div class="like">
+                            <span>3000 Likes</span>
+                        </div>
+
+                        <div class="caption">
+                            <p>
+                                <span>Thor</span> Excited for the action.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="comments">
+                        <div class="count">
+                            <p>View all 1500 comments</p>
+                        </div>
+
+                        <div class="add_comment">
+                            <ul>
+                                <li>
+                                  <b>ChinmayK</b> Favourite SuperHero Ever
+                                </li>
+                  
+                                <!-- {
+                                  comments.map((element, ind)=>{
+                                    return <li key={ind}><b>ChinmayK</b>{element}</li>
+                                  })
+                                } -->
+                            </ul>
+                            <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D" alt="user.jpg">
+
+                            <input type="text" placeholder="Add a comment...">
+
+                            <button type="button" class="comm btn btn-secondary btn-sm rounded-end-pill">comment</button>
+
+                            <p>4 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card 1 Ended -->
+
+        <!-- Card 2 started -->
+        <div class="container">
+            <div class="card border-0" >
+                <div class="profile card-header border-0">
+                    <div class="image">
+                        <img src="https://i.pinimg.com/originals/ba/2c/86/ba2c86395347de9b2c8ea8336609cd2f.jpg" alt="thor.jpg">
+                        <h4>Tony Stark</h4>
+                    </div>
+
+                    <div class="dots">
+                        <i class="fa-solid fa-ellipsis" style="color: #000000;"></i>
+                    </div>
+                </div>
+                
+                <div class="post_img mx-auto">
+                    <img src="https://i.pinimg.com/originals/0d/91/0e/0d910ef3199095408ea3c0eae5fd8615.gif" class="card-img-top" alt="thor.gif">
+                </div>
+                <div class="card-body">
+                    <div class="action">
+                        <div class="action_buttons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+    
+                        <div class="save">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes_cap">
+                        <div class="like">
+                            <span>3000 Likes</span>
+                        </div>
+
+                        <div class="caption">
+                            <p>
+                                <span>Tony Stark</span> Excited for the action.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="comments">
+                        <div class="count">
+                            <p>View all 1500 comments</p>
+                        </div>
+
+                        <div class="add_comment">
+                            <ul>
+                                <li>
+                                  <b>ChinmayK</b> You Are the Best
+                                </li>
+                  
+                                <!-- {
+                                  comments.map((element, ind)=>{
+                                    return <li key={ind}><b>ChinmayK</b>{element}</li>
+                                  })
+                                } -->
+                            </ul>
+                            <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D" alt="user.jpg">
+
+                            <input type="text" placeholder="Add a comment...">
+
+                            <button type="button" class="comm btn btn-secondary btn-sm rounded-end-pill">comment</button>
+
+                            <p>4 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card 2 Ended -->
+
+        <!-- Card 3 started -->
+        <div class="container">
+            <div class="card border-0" >
+                <div class="profile card-header border-0">
+                    <div class="image">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/981/655/664/avengers-age-of-ultron-the-avengers-scarlet-witch-elizabeth-olsen-wallpaper-preview.jpg" alt="thor.jpg">
+                        <h4>Scarlet Witch</h4>
+                    </div>
+
+                    <div class="dots">
+                        <i class="fa-solid fa-ellipsis" style="color: #000000;"></i>
+                    </div>
+                </div>
+                
+                <div class="post_img mx-auto">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-fe8b2ba37871be31d43c6fc24e2d964d" class="card-img-top" alt="thor.gif">
+                </div>
+                <div class="card-body">
+                    <div class="action">
+                        <div class="action_buttons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+    
+                        <div class="save">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes_cap">
+                        <div class="like">
+                            <span>3000 Likes</span>
+                        </div>
+
+                        <div class="caption">
+                            <p>
+                                <span>Scarlet Witch</span> Excited for the action.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="comments">
+                        <div class="count">
+                            <p>View all 1500 comments</p>
+                        </div>
+
+                        <div class="add_comment">
+                            <ul>
+                                <li>
+                                  <b>ChinmayK</b> Favourite SuperHero Ever
+                                </li>
+                  
+                                <!-- {
+                                  comments.map((element, ind)=>{
+                                    return <li key={ind}><b>ChinmayK</b>{element}</li>
+                                  })
+                                } -->
+                            </ul>
+                            <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D" alt="user.jpg">
+
+                            <input type="text" placeholder="Add a comment...">
+
+                            <button type="button" class="comm btn btn-secondary btn-sm rounded-end-pill">comment</button>
+
+                            <p>4 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card 3 Ended -->
+    </div>
+    <!-- Content Ended -->
+
+
+    <!-- Footer started -->
+    <div class="container-fluid">
+        <div class="footer container">
+            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-square-plus"></i>
+            <i class="fa-solid fa-clapperboard"></i>
+
+            <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D" alt="user.jpg">
+        </div>
+    </div>
+    <!-- Footer ended -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/56558055d4.js" crossorigin="anonymous"></script>
+
+</html>
